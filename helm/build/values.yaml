@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-app-5
+  namespace: my-quarkus-app-5-dev
+  cluster: .apps.cluster-dmsnv.dmsnv.sandbox1515.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/ohthreeinc/backstage-sample-quarkus-app-5
+  org: ohthreeinc
+  name: backstage-sample-quarkus-app-5
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-app-5-dev/my-quarkus-app-5
+  tag: latest
